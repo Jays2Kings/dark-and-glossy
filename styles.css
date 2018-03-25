@@ -167,7 +167,7 @@ a.dropdown-item:hover,
 /*===== Main Page =====*/
 
 #wrapper #content .forumcategoryblock .forumcategoryheader {
-    background: var(--thread-bg-sticky);
+    background: var(--thread-bg-read);
     border-color: var(--darker);
 }
 
