@@ -20,6 +20,7 @@
 
 html {
     /*background: var(--darker);*/
+	
 }
 
 #header .navbar-main.navbar.is-dark .navbar-brand .navbar-item.logo {
@@ -661,6 +662,32 @@ body.page-forum .forumpanel {
     color: #000;
 }
 
+
+
+@media screen and (max-width: 768px) {
+    html::before {
+         background-image: url(https://files.facepunch.com/garry/1949e914-71d5-4193-9c1e-47fcbb7f5bc4.png) !important; 
+    }
+	
+    .postblock .postmain .postinner .postuser .background-image {
+        height: calc(100% - 40px);
+        margin-top: 40px;
+        width: 100vw;
+        opacity: 0.3;
+        background-size: 100vw auto;
+        z-index: 2;
+        display: block;
+		
+    background-repeat: repeat;
+    overflow: hidden;
+    background-color: #ff000000;
+ -webkit-mask-image: none;
+ opacity: 0.2;
+        pointer-events: none;
+    }
+}
+
 .content_footer {
     background-color: #00000077;
 }
+
