@@ -558,7 +558,7 @@ body.page-forum .forumpanel {
 
 .dialog .modal-card .modal-card-foot .button.is-success {
     background: var(--accent);
-    color: var(--darker);
+    color: #ffffff;
 }
 
 .votes {
@@ -686,6 +686,7 @@ body.page-forum .forumpanel {
         pointer-events: none;
     }
 }
+
 
 .content_footer {
     background-color: #00000077;
