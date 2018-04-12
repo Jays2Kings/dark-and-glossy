@@ -407,6 +407,7 @@ body.page-forum .forumpanel {
     background-color: #ff000044;
 }
 
+
 .postblock.postblock-read .postcontent,
 .postblock .postcontent,
 .threadreply .actions {
@@ -465,9 +466,25 @@ body.page-forum .forumpanel {
     background-repeat: no-repeat;
     overflow: hidden;
     background-color: #00000000;
- -webkit-mask-image: url(https://i.imgur.com/BXQzNAa.png);
- opacity: .5;
 }
+
+
+#wrapper #content .postlist .postblock .postmain .postinner .postuser .background-image {
+     box-shadow: inset 2px 0px 0px -1px var(--accent);
+	 -webkit-mask-image: url(https://i.imgur.com/RueO3bH.png);
+}
+
+#wrapper #content .postlist .postblock-read .postmain .postinner .postuser .background-image {
+    box-shadow: inset 0 0 0 0 var(--accent);
+ -webkit-mask-image: url(https://i.imgur.com/LGmBSXs.png);
+}
+
+#wrapper #content .postlist .postblock-own .postmain .postinner .postuser .background-image {
+    box-shadow: inset 2px 0px 0px -1px var(--gold);
+ -webkit-mask-image: url(https://i.imgur.com/RueO3bH.png);
+}
+
+
 
 .ql-toolbar.ql-snow.toolbar button {
     color: rgba(255,255,255,0.5);
@@ -586,17 +603,8 @@ body.page-forum .forumpanel {
     box-shadow: inset 450px 0px 500px -500px var(--gold);
 } */
 
-#wrapper #content .postlist .postblock .postmain .postinner .postuser .background-image:after {
-    box-shadow: inset 2px 0px 0px -1px var(--accent);
-}
 
-#wrapper #content .postlist .postblock-read .postmain .postinner .postuser .background-image:after {
-    box-shadow: inset 0 0 0 0 var(--accent);
-}
 
-#wrapper #content .postlist .postblock-own .postmain .postinner .postuser .background-image:after {
-    box-shadow: inset 2px 0px 0px -1px var(--gold);
-}
 
 
 /*===== misc =====*/
@@ -672,20 +680,35 @@ body.page-forum .forumpanel {
     .postblock .postmain .postinner .postuser .background-image {
         height: calc(100% - 40px);
         margin-top: 40px;
-        width: 100vw;
-        opacity: 0.3;
-        background-size: 100vw auto;
+        width: 255px;
+        background-size: 255px auto;
         z-index: 2;
         display: block;
-		
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     overflow: hidden;
     background-color: #ff000000;
- -webkit-mask-image: none;
- opacity: 0.2;
         pointer-events: none;
     }
+	
+	#wrapper #content .postlist .postblock .postmain .postinner .postuser .background-image {
+	 -webkit-mask-image: url(https://i.imgur.com/FPEoupj.png);
 }
+
+
+#wrapper #content .postlist .postblock-read .postmain .postinner .postuser .background-image {
+ -webkit-mask-image: url(https://i.imgur.com/R38dNMj.png);
+}
+	
+#wrapper #content .postlist .postblock-own .postmain .postinner .postuser .background-image {
+ -webkit-mask-image: url(https://i.imgur.com/FPEoupj.png);
+}
+}
+
+
+.content_footer {
+    background-color: #00000077;
+}
+
 
 
 .content_footer {
