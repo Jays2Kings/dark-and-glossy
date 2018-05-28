@@ -739,7 +739,7 @@ body.page-forum .forumpanel {
     overflow: hidden;
     background-color: #ff000000;
         pointer-events: none;
-     background-position: -6px -28px;
+     background-position: 0px -28px;
     }
 	
 	#wrapper #content .postlist .postblock .postmain .postinner .postuser .background-image {
