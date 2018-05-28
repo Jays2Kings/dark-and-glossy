@@ -36,6 +36,7 @@ html {
 }
 
 #drawerleft>.drawer-section>.drawer-head {
+	height: 2.55rem;
     color: rgb(255, 255, 255);
     background-color: var(--thread-bg-read);
 }
