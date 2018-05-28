@@ -716,8 +716,12 @@ body.page-forum .forumpanel {
 		width: 256px;
     max-height: 512px;
 	height: calc(100vh - 96px);
-	    left: -7px;
+	    left: 5px;
     top: -28px;
+}
+
+.postuser .user-card .user-card-header {
+    padding-left: 17px !important;
 }
 
 .postrender .postinner>.postuser .background-image {
@@ -767,3 +771,4 @@ body.page-forum .forumpanel {
     background-color: #00000077;
 }
 
+  
