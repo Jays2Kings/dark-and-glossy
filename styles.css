@@ -716,7 +716,7 @@ body.page-forum .forumpanel {
 		width: 256px;
     max-height: 512px;
 	height: calc(100vh - 96px);
-	    left: 5px;
+	    left: 0px;
     top: -28px;
 }
 
